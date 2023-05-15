@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/LoginDarkLigth.css">
+    <title>Login Dark Ligth</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+            <div id="social_media">
+            <a href="#">
+                <img src="/img/icons8-facebook-novo-48.png" alt="facebook-logo">
+            </a>
+            <a href="#">
+                <img src="/img/icons8-google-logo-48.png" alt="googlo-logo">
+            </a>
+            <a href="#">
+                <img src="/img/icons8-github-48.png" alt="github-logo">
+            </a>
+            </div>    
+            <div id="inputs">
+            <div class="input-box">
+                <label for="idName">Nome</label>
+                <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="name" id="idName">
+                </div>  
+            </div>
+            <div class="input-box">
+                <label for="idEmail">E-mail</label>
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" name="email" id="idEmail">
+                </div>  
+            </div>
+            <div class="input-box">
+                <label for="idSenha">Senha</label>
+                <div class="input-field">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" name="senha" id="idSenha">
+                </div>  
+            </div>
+            <div id="forget_passaword">
+                <a href="#">
+                    Esqueceu sua senha 
+                </a>
+            </div>
+        </div>
+        <button type="submit" id="login_button">
+                Login
+        </button>
+    </form>
+    </main>
+    <script src="/js/LoginDarkLigth.js"></script>
+</body>
+</html> 
